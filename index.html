@@ -1,0 +1,76 @@
+<!-- Doctype HTML5 -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!-- Задаем кодировку для страницы -->
+	<meta charset="UTF-8">
+  <!-- SEO Задание тега Title -->
+	<title>Тестовое задание FanBox</title>
+  <meta name="description" content="Тестовое задание FunBox на ваканстю-html верстальщика">
+  <!-- Задание тега Viewport для адаптивного отображения страницы -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="inner-page">
+  <section class="catalog">
+    <h1 class="catalog__title">Ты сегодня покормил кота?</h1>
+    <article class="catalog__list">
+      <article class="catalog__item">
+        <div class="catalog__item-card card-product" tabindex="0">
+          <p class="card-product__note">Сказочное заморское яство</p>
+          <p class="card-product__note card-product__note--focus">Котэ не одобряет?</p>
+          <h2 class="card-product__title">Нямушка <span>c фуа-гра</span></h2>
+          <ul class="card-product__bonus">
+            <li><b>10</b> порций</li>
+            <li>мышь в подарок</li>
+          </ul>
+          <img class="card-product__image" src="img/cat.jpg" alt="Нямушка c фуа-гра">
+          <div class="card-product__weight">0,5 <span>кг</span></div>
+        </div>
+
+        <p class="catalog__item-note">Чего сидишь? Порадуй котэ, <button class="catalog__btn-text" type="button">купи.</button></p>
+        <p class="catalog__item-note catalog__item-note--selected">Печень утки разварная с артишоками.</p>
+        <p class="catalog__item-note catalog__item-note--disabled">Печалька, с фуа-гра закончился.</p>
+      </article>
+
+      <article class="catalog__item">
+        <div class="catalog__item-card catalog__item-card--selected card-product" tabindex="0">
+          <p class="card-product__note">Сказочное заморское яство</p>
+          <p class="card-product__note card-product__note--focus">Котэ не одобряет?</p>
+          <h2 class="card-product__title">Нямушка <span>c рыбой</span></h2>
+          <ul class="card-product__bonus">
+            <li><b>40</b> порций</li>
+            <li><b>2</b> мыши в подарок</li>
+          </ul>
+          <img class="card-product__image" src="img/cat.jpg" alt="Нямушка c рыбой">
+          <div class="card-product__weight">2<br> <span>кг</span></div>
+        </div>
+
+        <p class="catalog__item-note">Чего сидишь? Порадуй котэ, <button class="catalog__btn-text" type="button">купи.</button></p>
+        <p class="catalog__item-note catalog__item-note--selected">Печень утки разварная с артишоками.</p>
+        <p class="catalog__item-note catalog__item-note--disabled">Печалька, с фуа-гра закончился.</p>
+      </article>
+
+      <article class="catalog__item">
+        <div class="catalog__item-card catalog__item-card--disabled card-product" tabindex="0">
+          <p class="card-product__note">Сказочное заморское яство</p>
+          <p class="card-product__note card-product__note--focus">Котэ не одобряет?</p>
+          <h2 class="card-product__title">Нямушка <span>c курой</span></h2>
+          <ul class="card-product__bonus">
+            <li><b>100</b> порций</li>
+            <li><b>5</b> мышей в подарок</li>
+            <li>заказчик доволен</li>
+          </ul>
+          <img class="card-product__image" src="img/cat.jpg" alt="Нямушка c курой">
+          <div class="card-product__weight">5<br> <span>кг</span></div>
+        </div>
+
+        <p class="catalog__item-note">Чего сидишь? Порадуй котэ, <button class="catalog__btn-text" type="button">купи.</button></p>
+        <p class="catalog__item-note catalog__item-note--selected">Печень утки разварная с артишоками.</p>
+        <p class="catalog__item-note catalog__item-note--disabled">Печалька, с фуа-гра закончился.</p>
+      </article>
+    </article>
+  </section>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
